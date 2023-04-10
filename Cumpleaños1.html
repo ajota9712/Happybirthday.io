@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feliz cumpleaños Raquelita <3</title>
+	<h1>Put play to the song</h1>
+	<style>
+	 body {
+    background-color:blue;
+		}
+			img {
+  width: 100%;
+  height: auto;
+		}
+	</style>
+	<style>
+		h1,h2{
+			color:white;
+		}
+	</style>
+</head>
+<body>
+	
+	<audio id="audio" src="C:\Users\Alvaro Torres\Desktop\imagenes tarjeta\y2mate (mp3cut.net).mp3" type="audio/mpeg"></audio>
+	
+	<button onclick="playAudio()">Reproducir</button>
+	<button onclick="pauseAudio()">Pausar</button>
+	
+
+
+	<h1>Feliz cumpleaños Raquelita<3</h1>
+	
+	<!-- Sección de felicitación en albanés -->
+	<h2>Urime ditëlindjen Riri!</h2>
+	<img src="C:\Users\Alvaro Torres\Desktop\imagenes tarjeta\DSC_0319.JPG" alt="Felicitación en albanés">
+	
+	<!-- Sección de felicitación en español -->
+	<h2>¡Feliz cumpleaños Raquelita :)</h2>
+	<img src="C:\Users\Alvaro Torres\Desktop\imagenes tarjeta\DSC_0453.JPG" alt="Felicitación en español">
+	
+	<!-- Sección de felicitación en inglés -->
+	<h2>Happy birthday Rehana!</h2>
+	<img src="C:\Users\Alvaro Torres\Desktop\imagenes tarjeta\DSC_0725.JPG" alt="Felicitación en inglés">
+	
+	<!-- Sección de felicitación en holandés -->
+	<h2>Gefeliciteerd met je verjaardag Riri<3</h2>
+	<img src="C:\Users\Alvaro Torres\Desktop\imagenes tarjeta\DSC_0462.JPG" alt="Felicitación en holandés">
+
+	<script>
+		var audio = document.getElementById("audio");
+		
+		function playAudio() {
+			audio.play();
+		}
+		
+		function pauseAudio() {
+			audio.pause();
+		}
+	</script>
+</body>
+</html>
